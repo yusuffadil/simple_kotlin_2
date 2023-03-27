@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".HomeActivity">
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/my_financial"
+        style="@style/TextView.Normal.red"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="62dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_sample_user"
+        tools:ignore="ContentDescription" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="32dp"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:background="@drawable/shape_rectangle_white_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4">
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/TextView.High.white"
+            android:text="@string/hallo_udin" />
+
+        <TextView
+            android:id="@+id/textView12"
+            style="@style/TextView.Normal.white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/we_can_help_you"
+            tools:ignore="TextContrastCheck" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="50dp"
+            android:orientation="horizontal"
+            tools:ignore="DisableBaselineAlignment">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginRight="5dp"
+                android:orientation="vertical"
+                tools:ignore="RtlHardcoded">
+
+                <TextView
+                    android:id="@+id/tv_blog"
+                    style="@style/TextView.Normal.red"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape_rectangle_white_top_left_background"
+                    android:drawablePadding="10dp"
+                    android:gravity="center"
+                    android:paddingStart="-40dp"
+                    android:paddingTop="45dp"
+                    android:paddingBottom="18dp"
+                    android:text="@string/blog"
+                    app:drawableTopCompat="@drawable/ic_blogging"
+                    tools:ignore="RtlSymmetry,TextContrastCheck" />
+
+                <TextView
+                    style="@style/TextView.Normal.red"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/shape_rectangle_white_bottom_left_background"
+                    android:drawablePadding="10dp"
+                    android:gravity="center"
+                    android:paddingStart="-40dp"
+                    android:paddingTop="45dp"
+                    android:paddingBottom="18dp"
+                    android:text="@string/other"
+                    app:drawableTopCompat="@drawable/ic_other"
+                    tools:ignore="RtlSymmetry,TextContrastCheck" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginLeft="5dp"
+                android:orientation="vertical"
+                tools:ignore="RtlHardcoded">
+
+                <TextView
+                    style="@style/TextView.Normal.red"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape_rectangle_white_top_right_background"
+                    android:drawablePadding="10dp"
+                    android:gravity="center"
+                    android:paddingStart="40dp"
+                    android:paddingTop="45dp"
+                    android:paddingBottom="18dp"
+                    android:text="@string/profile"
+                    app:drawableTopCompat="@drawable/ic_user"
+                    tools:ignore="RtlSymmetry,TextContrastCheck" />
+
+                <TextView
+                    style="@style/TextView.Normal.red"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/shape_rectangle_white_bottom_right_background"
+                    android:drawablePadding="10dp"
+                    android:gravity="center"
+                    android:paddingStart="40dp"
+                    android:paddingTop="45dp"
+                    android:paddingBottom="18dp"
+                    android:text="@string/logout"
+                    app:drawableTopCompat="@drawable/ic_logout"
+                    tools:ignore="RtlSymmetry,TextContrastCheck" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

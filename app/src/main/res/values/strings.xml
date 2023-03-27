@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">simple_kotlin_2</string>
+    <string name="top_image">top_image</string>
+    <string name="ic_image">ic_image</string>
+    <string name="understand">Understand</string>
+    <string name="pahami_kondisi_financial_sekarang">Pahami kondisi financial sekarang</string>
+    <string name="next">Next</string>
+    <string name="get_started">Get Started</string>
+    <string name="hello">Hello</string>
+    <string name="sudah_menabungkah_hari_ini">Sudah menabungkah hari ini?</string>
+    <string name="img_splash">img_splash</string>
+    <string name="goal">Goal</string>
+    <string name="tentukan_tujuan_keuanganmu">Tentukan tujuan keuanganmu</string>
+    <string name="choose">Choose</string>
+    <string name="pilih_strategi_yang_kamu_inginkan">Pilih strategi yang kamu inginkan</string>
+    <string name="sign_in">Sign in</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="signin_to_continue">Signin to continue</string>
+    <string name="email">Email</string>
+    <string name="my_financial">My Financial</string>
+    <string name="hallo_udin">Hallo, Udin</string>
+    <string name="we_can_help_you">We can help you</string>
+    <string name="blog">Blog</string>
+    <string name="other">Other</string>
+    <string name="profile">Profile</string>
+    <string name="logout">Logout</string>
+</resources>
